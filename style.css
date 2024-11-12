@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-image: url("bgnew.jpg");
+}
+
+/* Home css */
+.container
+{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headtext{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+
+.but1home{
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+/* //index file css */
+
+.container1{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+
+
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+}
+.imgs{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0em;  
+}
+.imgs:hover{
+    border:3px solid rgb(252, 248, 4);
+}
+
+.bad{
+    margin-top: 1rem;
+}
+
+
+.scoreboard{
+    background-color: rgb(255, 242, 0);
+    height: 35%;
+    color: rgb(255, 157, 0);
+}
+.mini{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1em;
+
+}
+
+.right{
+    /* background-color: rgb(148, 139, 156); */
+    margin-left: 3em;
+}
+.buttonss{
+    padding-top: 1em;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.donwbutton
+{
+    background-color: blueviolet;
+    padding: 0.5rem;
+    margin-left: 1em;
+    border: none;
+    color: white;                
+}
